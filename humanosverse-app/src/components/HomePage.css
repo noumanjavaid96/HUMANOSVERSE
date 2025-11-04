@@ -1,0 +1,145 @@
+.home-page-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f0f2f5;
+}
+
+.sidebar {
+  width: 250px;
+}
+
+.left-sidebar .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.left-sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.left-sidebar nav li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.left-sidebar nav li.active {
+  background-color: #e0e0e0;
+}
+
+.main-content {
+  width: 600px;
+}
+
+.feed-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.feed-toggles button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.feed-toggles button.active {
+  border-bottom: 2px solid #007aff;
+  color: #007aff;
+}
+
+.post {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.post-header img {
+  border-radius: 50%;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.post-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.right-sidebar {
+  width: 300px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  background: none;
+  border: none;
+  flex-grow: 1;
+}
+
+.trending-topics, .who-to-follow {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.trending-topics ul, .who-to-follow ul {
+  list-style: none;
+  padding: 0;
+}
+
+.trending-topics li, .who-to-follow li {
+  margin-bottom: 10px;
+}
+
+.who-to-follow li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.who-to-follow img {
+  border-radius: 50%;
+}
+
+.who-to-follow button {
+  margin-left: auto;
+  background-color: #007aff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}

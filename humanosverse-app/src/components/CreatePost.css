@@ -1,0 +1,80 @@
+.create-post-container {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.create-post-header textarea {
+  width: 100%;
+  background-color: #2a2a2a;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  resize: none;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.create-post-header p {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.create-post-actions {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  padding: 10px 0;
+}
+
+.create-post-actions button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.media-upload-container {
+  margin: 20px 0;
+}
+
+.media-upload-box {
+  border: 2px dashed #333;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.upload-status {
+  margin-top: 10px;
+}
+
+.create-post-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.privacy-settings button {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.schedule-post {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
